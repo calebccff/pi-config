@@ -10,6 +10,5 @@ echo "core_freq=500" >> /boot/config.txt
 echo "sdram_freq=600" >> /boot/config.txt
 echo "over_voltage=6" >> /boot/config.txt
 echo "Done!"
-cat /boot/config.txt
 sleep 5
 sudo init 6
