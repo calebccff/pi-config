@@ -1,6 +1,5 @@
 echo "Making changes"
-mkdir ~/.config
-mkdir ~/.config/openbox
+mkdir -p ~/.config/openbox/
 touch ~/.config/openbox/autostart
 echo "lxpanel &" > ~/.config/openbox/autostart
 
